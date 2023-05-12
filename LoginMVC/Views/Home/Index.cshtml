@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<form asp-controller="Home" asp-action="Login" method="post">
+    <div>
+        <p>Login</p>
+        <input type="text" placeholder="Username" name="username"/>
+        <input type="password" placeholder="Password" name="password" />
+        <button type="submit">Login</button>
+    </div>
+</form>
+
